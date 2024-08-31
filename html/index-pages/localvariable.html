@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script type="text/javascript">
+        function fcount(a) {
+            var count = 5;//count=5 , 5+5=10
+            count += 2;//count+=2, 5+2=7
+            document.write("<b> inside function global count:</b> " + count + " <br>");
+            document.write("<b> inside function global A:</b> " + a + " <br>");
+            a += 3;//a+=3, 3+3=6
+            document.write("<b> inside A:</b>" + a + "<br>")
+
+
+        }    
+    </script>
+
+</head>
+
+<body>
+    <script type="text/javascript">
+        var a = 3, count = 0;
+        fcount(a);
+        document.write("<b> outside count:</b>" + count + "<br>")
+        document.write("<b> outside A:</b>" + a + "<br>")
+    </script>
+
+</body>
+
+</html>

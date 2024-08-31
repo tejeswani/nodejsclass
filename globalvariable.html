@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script type="text/javascript">
+        count = 5; //global variable outside the function
+        var a = 4; //global variable
+        function fcount() {
+            count += 5
+            a += 4;
+            document.write("<b> inside function global count:<b> +count" + " <br> ");
+            document.write("<b> inside function global A:<b> " + a + " <br>");
+
+        }
+
+    </script>
+
+</head>
+
+<body>
+    <script type="text/javascript">
+        document.write("<b> outside function global count A:</b>" + a + "<br>");
+        fcount();
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "mahi_calculator",
+  "version": "1.0.1",
+  "description": "Simple Calculator with square and cube function",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["add","multi","cube"],
+  "author": "Maheswari B",
+  "license": "ISC"
+}

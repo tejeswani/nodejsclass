@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script type="text/javascript">
+        function add(a, b) {
+            return (a + b);
+        }
+        function divide(a, b) {
+            try {
+                if (b == 0) {
+                    throw 'Division by zero gives us error';
+                }
+            } catch (error) {
+                document.write('de-nominator cant be zero'+"<br>");
+            }
+            return (a / b);
+        }
+    </script>
+</head>
+
+<body>
+    <script>
+        let result = add(10, 20);
+        document.write('final result:' + result + "<br>");
+        let divResult = divide(20, 0);
+        document.write('Division Result:' + divResult);
+    </script>
+</body>
+
+</html>
